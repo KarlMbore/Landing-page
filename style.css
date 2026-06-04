@@ -12,13 +12,12 @@ body{
 }
 .bodyone, .bodytwo, 
 .bodythree, .bodyfour{
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 .centeredbox{
-    width: 50%;
-    padding: 0 2% 7% 2%;
+    width: 55%;
 }
 .header{
     display: flex;
@@ -39,7 +38,6 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
-
 .firstbody{
     display: flex;
     align-items: center;
@@ -56,6 +54,10 @@ body{
 .subtext, img{
     flex-basis: 50%;
 }
+.firstbody, .secondbody,
+.thirdbody, .bodyfour{
+    margin: 12% 0;
+}
 .firstbody img{
     background-color: #E5E7EB;
     height: 150px;
@@ -70,15 +72,13 @@ h2{
 }
 .secondbody{
     display: flex;
-    gap:1%;
+    gap:2%;
     padding: 1.5%;
-}
-.second div{
-    height: 200px;
 }
 .emptybox{
     border: solid blue 2px;
     border-radius: 10%;
+    height: 100px;
 }
 .second p{
     text-align: center;
@@ -114,5 +114,6 @@ button{
 .footer{
     background-color: #1F2937;
     text-align: center;
-    padding: 2.5%;
+    padding: 1.5%;
+    color: #E5E7EB;
 }
